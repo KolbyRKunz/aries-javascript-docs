@@ -9,7 +9,7 @@
 ### Shortened URLs
 
 The first topic to discuss is that of using a shortened URL to encode an invitation. This can be done for many purposes but mostly because the length of encoded URL's with complex invitations can quickly become very large. 
-The finer details of why URL shortening might want to be done and how it should be done can be found here `Out of Band RFC` (https://github.com/hyperledger/aries-rfcs/tree/main/features/0434-outofband#url-shortening)
+The finer details of why URL shortening might want to be done and how it should be done can be found here [`Out of Band RFC`](https://github.com/hyperledger/aries-rfcs/tree/main/features/0434-outofband#url-shortening)
 
 The primary way to handle a invitation from a shortened URL is to use the same method as receiving an invitation from an URL
 

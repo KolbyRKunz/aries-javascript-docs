@@ -37,8 +37,8 @@ Passing a valid config object with the `reuseConnection` property set to true wi
 
 NOTE: the config object does not need to be fully constructed with all fields available but it should be noted that additional fields exist providing more functionality.
 
-### Conecting with a Public DID
+### Connecting with a Public DID
 
-Lastly we will talk about how to connect using a public DID. This is another feature that is handled internally in AFJ, suffice it to say that as long as the DID type that is being used to connect is supported by AFJ it will be able to make a connection when it. 
+Lastly we will talk about how to connect using a public DID. This is another feature that is handled internally in AFJ, suffice it to say that as long as the DID type that is being used to connect is supported by AFJ it will be able to make a connection with it. 
 
 The two public DIDs that are supported by AFJ are DID:sov and DID:web. Currently AFJ does not have a way to create either of these public DIDs and they must be obtained elsewhere.

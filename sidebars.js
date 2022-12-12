@@ -94,6 +94,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'API',
+      link: { type: 'doc', id: 'API/advanced-oob-features'},
+      items: [
+        {
+        type: 'category',
+        label: 'v0.2.5',
+        link: {type: 'doc', id: 'API/AFJ v0.2.5/index'},
+        items: ['API/AFJ v0.2.5/index']
+      },
+    ],
+    },
+    {
+      type: 'category',
       label: 'Updating',
       link: { type: 'doc', id: 'updating/index' },
       items: ['updating/update-assistant', 'updating/versions/0.1-to-0.2'],

@@ -19,7 +19,9 @@ buildscript {
 
 ### Add the Sovrin maven repository
 
-inside the `android/build.gradle` add the url for the Sovrin maven repository.
+inside the `android/build.gradle` add the url for the Sovrin maven repository. 
+
+NOTE: This needs to be done at the correct bracket level to work correctly.
 
 ```json title="android/build.gradle"
 allprojects {
@@ -52,8 +54,8 @@ dependencies {
 The following steps will add the correct dependencies at the correct location
 for everything to work properly
 
-> This guide presumes that you execute every command from the root of your
-> project
+> **This guide presumes that you execute every command from the root of your
+> project**
 
 1. create a `jniLibs` directory
 
